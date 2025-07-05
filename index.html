@@ -5,61 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohammad Amin Shahriari</title>
     <style>
-        body { font-family: "Times New Roman", Times, serif; font-size: 14px; margin: 0; padding: 0; background-color: #f4f4f4; }
-        .header { background-color: #333; color: white; text-align: center; padding: 20px; }
+        body { font-family: Arial, sans-serif; font-size: 16px; margin: 0; padding: 0; background-color: #fff; line-height: 1.6; color: #333; }
         .container { max-width: 800px; margin: 20px auto; padding: 20px; }
-        .box { padding: 15px; margin-bottom: 20px; border: 2px solid #4a90e2; border-radius: 10px; }
-        .box:nth-child(odd) { background-color: #e7f2f7; } /* First color for odd boxes */
-        .box:nth-child(even) { background-color: #b7d7e7; } /* Second color for even boxes */
-        h1, h2 { color: #333; }
+        .header { text-align: center; padding: 20px 0; border: 1px solid #ddd; background-color: #f9f9f9; }
+        .header h1 { font-size: 24px; margin: 10px 0; font-family: "Andalus", serif; }
+        .photo { width: 150px; height: 150px; border-radius: 50%; border: 5px solid #fff; box-shadow: 0 0 10px rgba(0,0,0,0.1); margin: 10px auto; display: block; object-fit: cover; }
+        .section { margin-bottom: 30px; }
+        .section h2 { 
+            font-size: 20px; 
+            font-family: "Andalus", serif; 
+            display: flex; 
+            align-items: center; 
+            margin-bottom: 10px;
+        }
+        .section h2 span { 
+            border-bottom: 2px dashed #000; 
+            flex-grow: 1; 
+            height: 1px; 
+            margin-left: 10px; 
+        }
         a { color: #0066cc; text-decoration: none; }
         a:hover { text-decoration: underline; }
-        .photo { width: 100px; height: 100px; border-radius: 50%; float: left; margin-right: 20px; }
+        ul { list-style-type: none; padding: 0; }
+        ul li { margin-bottom: 5px; }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>Mohammad Amin Shahriari</h1>
-    </div>
     <div class="container">
-        <div class="box">
-            <img src="https://via.placeholder.com/100" alt="Sample Photo" class="photo">
-            <h2>About Me</h2>
+        <div class="header">
+            <h1>Mohammad Amin Shahriari</h1>
+            <img src="https://via.placeholder.com/150x150" alt="Profile Photo" class="photo">
+        </div>
+        <div class="section">
+            <h2>About Me<span></span></h2>
             <p>Mohammad Amin Shahriari completed his Master of Science (M.Sc.) degree in Remote Sensing at the Center for Remote Sensing and Geographic Information System Research, Faculty of Earth Sciences, Shahid Beheshti University, Tehran, Iran, in 2021. His research interests lie at the intersection of Remote Sensing, Artificial Intelligence, and Earth observation technologies. He specializes in Synthetic Aperture Radar (SAR), Soil Moisture Estimation, Vegetation Parameter Estimation, Time Series Analysis, and Big Data Processing for environmental applications. He has a strong academic and practical interest in InSAR (Interferometric Synthetic Aperture Radar) and is passionate about fieldwork, data collection, and geospatial data analysis.</p>
         </div>
-        <div class="box">
-            <h2>Contact Information</h2>
-            <p>Phone: +98 991 441 1798 | +98 921 625 4688</p>
-            <p>Email: your.email@gmail.com</p>
-            <p>LinkedIn: <a href="linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></p>
-            <p>GitHub: <a href="github.com/yourprofile">github.com/yourprofile</a></p>
-            <p>Google Scholar: <a href="scholar.google.com/citations?user=yourID">scholar.google.com/citations?user=yourID</a></p>
+        <div class="section">
+            <h2>Contact Information<span></span></h2>
+            <ul>
+                <li>Phone: +98 991 441 1798 | +98 921 625 4688</li>
+                <li>Email: your.email@gmail.com</li>
+                <li>LinkedIn: <a href="linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></li>
+                <li>GitHub: <a href="github.com/yourprofile">github.com/yourprofile</a></li>
+                <li>Google Scholar: <a href="scholar.google.com/citations?user=yourID">scholar.google.com/citations?user=yourID</a></li>
+            </ul>
         </div>
-        <div class="box">
-            <h2>Publications</h2>
+        <div class="section">
+            <h2>Publications<span></span></h2>
             <p>[Add your publications here or link to your Google Scholar page.]</p>
         </div>
-        <div class="box">
-            <h2>Education Background</h2>
-            <p><strong>M.Sc. in Remote Sensing</strong><br>Shahid Beheshti University, Tehran, Iran<br>Thesis: Soil Moisture Estimation Using Sentinel-1 SAR Imagery and Machine Learning Techniques (2021)</p>
-            <p><strong>B.Sc. in Civil Engineering – Surveying</strong><br>Daneshpajoohan Pishro Higher Education Institute, Isfahan, Iran</p>
-        </div>
-        <div class="box">
-            <h2>Academic Skills</h2>
-            <h3>Programming:</h3>
-            <ul>
-                <li>Python (advanced): SAR data processing, machine/deep learning for soil moisture estimation</li>
-                <li>R (intermediate): Geospatial analysis, ensemble learning, packages such as raster, GISTools, and BFAST</li>
-            </ul>
-            <h3>Remote Sensing and GIS Software:</h3>
-            <p>SNAP, GMTSAR, LiCSBAS, ENVI, ArcGIS/ArcGIS Pro, QGIS, Google Earth Engine, and currently learning GAMMA Remote Sensing</p>
-            <h3>Geospatial Analysis:</h3>
-            <p>Experience in optical remote sensing for vegetation, land use, and land cover mapping<br>Time series processing and spatiotemporal trend analysis</p>
-            <h3>Other Skills:</h3>
-            <p>Teamwork<br>Scientific writing<br>Problem solving and critical thinking</p>
-        </div>
-        <div class="box">
-            <h2>Research Interests and Expertise</h2>
+        <div class="section">
+            <h2>Research Interests and Expertise<span></span></h2>
             <ul>
                 <li>Applied Remote Sensing</li>
                 <li>SAR and InSAR Processing</li>
@@ -70,9 +66,12 @@
                 <li>Machine Learning and Deep Learning (Regression & Classification)</li>
             </ul>
         </div>
-        <div class="box">
-            <h2>Professional Experience</h2>
-            <p>Collaboration with Prof. Jeffrey Walker and Dr. Faramarz Nilforoushan on research and scientific publications related to SAR-based soil moisture and remote sensing applications.</p>
+        <div class="section">
+            <h2>Educational Background<span></span></h2>
+            <ul>
+                <li><strong>M.Sc. in Remote Sensing</strong><br>Shahid Beheshti University, Tehran, Iran<br>Thesis: Soil Moisture Estimation Using Sentinel-1 SAR Imagery and Machine Learning Techniques (2021)</li>
+                <li><strong>B.Sc. in Civil Engineering – Surveying</strong><br>Daneshpajoohan Pishro Higher Education Institute, Isfahan, Iran</li>
+            </ul>
         </div>
     </div>
 </body>
